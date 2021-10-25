@@ -39,7 +39,7 @@
 
 
       &.active::after{
-        content:'';
+        content:''; // é importante, mesmo que vazio
         height:3px;
         border-radius: 3px 3px 0 0 ;
         width:100%;
@@ -49,5 +49,9 @@
         background: var(--yellow-500); 
       }
     }
+  }
+
+  button {
+    margin-left:auto;
   }
 }
